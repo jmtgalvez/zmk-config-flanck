@@ -23,9 +23,9 @@
 
         lower_layer {
             bindings = <
-   &trans               &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp K_VOL_UP  &kp KP_NUMLOCK  &kp KP_N7   &kp KP_N8    &kp KP_N9   &kp PLUS   &kp BSLH
-   &kp GRAVE            &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp K_VOL_DN  &none           &kp KP_N4   &kp KP_N5    &kp KP_N6   &kp MINUS  &kp UNDER
-   &trans               &kp INSERT  &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(B)     &none           &kp KP_N1   &kp KP_N2    &kp KP_N3   &kp STAR   &kp SLASH
+   &trans               &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp C_VOL_UP  &kp KP_NUMLOCK  &kp KP_N7   &kp KP_N8    &kp KP_N9   &kp PLUS   &kp BSLH
+   &kp GRAVE            &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp C_VOL_DN  &none           &kp KP_N4   &kp KP_N5    &kp KP_N6   &kp MINUS  &kp UNDER
+   &trans               &kp INSERT  &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp C_MUTE    &none           &kp KP_N1   &kp KP_N2    &kp KP_N3   &kp STAR   &kp SLASH
    &trans               &none       &trans      &trans      &trans      &trans        &mo 3           &kp KP_N0   &kp KP_DOT   &kp RALT    &kp RGUI   &kp EQUAL
             >;
         };

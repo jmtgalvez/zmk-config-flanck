@@ -23,10 +23,10 @@
 
         lower_layer {
             bindings = <
-   &trans       &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp HOME      &kp PG_UP     &kp PG_DN     &kp END         &kp INSERT    &kp GRAVE
-   &kp ESC      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0        &kp LEFT      &kp DOWN      &kp LEFT      &kp RIGHT       &kp LBKT      &kp RBKT
-   &kp CAPS     &kp STAR    &kp SLASH   &kp MINUS   &kp PLUS    &none         &none         &kp PSCRN     &kp SLCK      &kp PAUSE_BREAK &kp BSLH      &kp CAPS
-   &trans       &trans      &trans      &trans      &trans      &mo 3         &trans        &none         &none         &kp RALT        &kp RGUI      &kp LA(PSCRN)
+   &trans       &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp HOME      &kp PG_DN     &kp PG_UP     &kp END         &kp INSERT    &kp GRAVE
+   &kp ESC      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0        &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT       &kp LBKT      &kp RBKT
+   &kp LSHIFT   &kp STAR    &kp SLASH   &kp MINUS   &kp PLUS    &none         &none         &kp PSCRN     &kp SLCK      &kp PAUSE_BREAK &kp BSLH      &kp CAPS
+   &trans       &trans      &trans      &trans      &trans      &none         &trans        &none         &none         &kp RALT        &kp RGUI      &kp LA(PSCRN)
             >;
         };
             
@@ -35,7 +35,7 @@
     &trans              &kp LG(N1)  &kp LG(N2)   &kp LG(N3)   &kp LG(N4)  &kp LG(N5)   &none    &none    &kp LG(UP)   &kp LG(DOWN)  &none      &none
     &kp F1              &kp F2      &kp F3       &kp F4       &kp F5      &kp F6       &kp F7   &kp F8   &kp F9       &kp F10       &kp F11    &kp F12
     &kp F13             &kp F14     &kp F15      &kp F16      &kp F17     &kp F18      &kp F19  &kp F20  &kp F21      &kp F22       &kp F23    &kp F24
-    &kp LG(LC(LEFT))    &trans      &trans       &trans       &trans      &mo 3        &trans   &trans   &trans       &trans        &trans     &kp LG(LC(RIGHT))
+    &kp LG(LC(LEFT))    &trans      &trans       &trans       &trans      &none        &trans   &trans   &trans       &trans        &trans     &kp LG(LC(RIGHT))
            >;
         };
 

@@ -26,7 +26,7 @@
    &trans       &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp HOME      &kp PG_DN     &kp PG_UP     &kp END         &kp INSERT    &kp GRAVE
    &kp ESC      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0        &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT       &kp LBKT      &kp RBKT
    &kp LSHIFT   &kp STAR    &kp SLASH   &kp MINUS   &kp PLUS    &none         &none         &kp PSCRN     &kp SLCK      &kp PAUSE_BREAK &kp BSLH      &kp CAPS
-   &trans       &trans      &trans      &trans      &trans      &none         &trans        &none         &none         &kp RALT        &kp RGUI      &kp LA(PSCRN)
+   &trans       &trans      &trans      &trans      &trans      &none         &trans        &kp BSPC      &kp DEL       &kp RALT        &kp RGUI      &kp LG(PSCRN)
             >;
         };
             

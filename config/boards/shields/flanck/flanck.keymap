@@ -24,7 +24,7 @@
         lower_layer {
             bindings = <
    &kp GRAVE    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6     &kp N7     &kp N8     &kp N9       &kp N0      &kp BSLH
-   &kp ESC      &kp INSERT  &kp HOME    &kp PG_UP   &kp PG_DN   &kp END       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none       &kp none
+   &kp ESC      &kp INSERT  &kp HOME    &kp PG_UP   &kp PG_DN   &kp END       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none       &none
    &kp LSHIFT   &kp STAR    &kp SLASH   &kp MINUS   &kp PLUS    &kp EQUAL     &none      &kp LBRC   &kp RBRC   &kp LBKT     &kp RBKT    &kp CAPS
    &trans       &none       &trans      &trans      &trans      &none         &trans     &kp BSPC   &kp DEL    &kp RALT     &kp RGUI    &kp LG(PSCRN)
             >;

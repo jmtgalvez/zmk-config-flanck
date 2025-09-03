@@ -23,10 +23,10 @@
 
         lower_layer {
             bindings = <
-   &trans       &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp HOME      &kp PG_DN     &kp PG_UP     &kp END         &kp INSERT    &kp GRAVE
-   &kp ESC      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0        &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT       &kp LBKT      &kp RBKT
-   &kp LSHIFT   &kp STAR    &kp SLASH   &kp MINUS   &kp PLUS    &none         &none         &kp PSCRN     &kp SLCK      &kp PAUSE_BREAK &kp BSLH      &kp CAPS
-   &trans       &trans      &trans      &trans      &trans      &none         &trans        &kp BSPC      &kp DEL       &kp RALT        &kp RGUI      &kp LG(PSCRN)
+   &kp GRAVE    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6     &kp N7     &kp N8     &kp N9       &kp N0      &kp BSLH
+   &kp ESC      &kp INSERT  &kp HOME    &kp PG_UP   &kp PG_DN   &kp END       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none       &kp none
+   &kp LSHIFT   &kp STAR    &kp SLASH   &kp MINUS   &kp PLUS    &kp EQUAL     &none      &kp LBRC   &kp RBRC   &kp LBKT     &kp RBKT    &kp CAPS
+   &trans       &none       &trans      &trans      &trans      &none         &trans     &kp BSPC   &kp DEL    &kp RALT     &kp RGUI    &kp LG(PSCRN)
             >;
         };
             
@@ -44,7 +44,7 @@
   &out OUT_BLE   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &none  &none  &none  &none  &none  &bootloader
   &bt BT_CLR     &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &none  &none  &none  &none  &none  &none
   &bt BT_CLR_ALL &none           &none           &none           &none           &none           &none  &none  &none  &none  &none  &none   
-  &out OUT_USB   &trans          &none           &none           &none           &none           &none  &none  &none  &none  &none  &ext_power EP_TOG            >; 
+  &out OUT_USB   &none           &none           &none           &none           &none           &none  &none  &none  &none  &none  &ext_power EP_TOG            >; 
         };
     };
 };
